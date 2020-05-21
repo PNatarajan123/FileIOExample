@@ -31,8 +31,8 @@ if proceed == "yes":
     ask = input(
         "Do you want to Write the file? WARNING: this will delete all of the text and replace it with the text in the code (yes, no)")
     if ask == "yes":
-        fo = open("Animal_Farm.txt", "w")  # opens the file for writing only
-        fo.write("Everything is gone mwahahahahaha")  # Deletes everything and writes "Everything is gone mwahahahahaha"
+        fo = open("Animal_Farm.txt", "w")  # opens the file for writing only and deletes the contents by defalut
+        fo.write("Everything is gone mwahahahahaha")  #Writes "Everything is gone mwahahahahaha"
 
     # closes the file at the end
     fo.close()
