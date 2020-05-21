@@ -37,9 +37,9 @@ if proceed == "yes":
     # closes the file at the end
     fo.close()
 
-    # If you want to experiment more, the full txt of Anmimal Farm is in
-    # http://gutenberg.net.au/ebooks01/0100011.txt
-    # you can copy and paste the file into Animal_Farm.txt to get a clean slate
+# If you want to experiment more, the full txt of Anmimal Farm is in
+# http://gutenberg.net.au/ebooks01/0100011.txt
+# you can copy and paste the file into Animal_Farm.txt to get a clean slate
 
 
 
