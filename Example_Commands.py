@@ -1,4 +1,4 @@
-proceed = input("This code is an example of the functionality of FileIO. As you run the code, it will puase at parts after the specifics have been executed. It is encouraged that after every stop, you go back to Animal_Farm.txt and see what changes were made to the file itself. If you understand, type, yes")
+proceed = input("This code is an example of the functionality of FileIO. As you run the code, it will puase at parts after the specifics have been executed. It is encouraged that after every stop, you go back to Animal_Farm.txt and see what changes were made to the file itself. If you understand type, yes")
 if proceed == "yes":
     # simple print output
     print("Python is cool")  # prints "Python is cool"
@@ -31,7 +31,7 @@ if proceed == "yes":
     ask = input(
         "Do you want to Write the file? WARNING: this will delete all of the text and replace it with the text in the code (yes, no)")
     if ask == "yes":
-        fo = open("Animal_Farm.txt", "w")  # opens the file for writing only (see the table in the presentation)
+        fo = open("Animal_Farm.txt", "w")  # opens the file for writing only
         fo.write("Everything is gone mwahahahahaha")  # Deletes everything and writes "Everything is gone mwahahahahaha"
 
     # closes the file at the end
